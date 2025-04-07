@@ -1,0 +1,127 @@
+BODY
+   {
+      background-color:#d1bed3;
+   }
+#PRINCIPAL
+   {
+      width:1000px;
+      margin:auto;
+    }
+H1
+  {
+    font-family:"Comic Sans MS";
+    text-align:center;
+    background-color:#101255;
+    color:#FFFFFF;
+  }
+#CABECERA
+   {
+      width:1000px;
+      height:40px;
+      background-color:#597FB8;
+   }
+#CABECERA UL
+   {
+      text-align:center;
+      padding-top:15px;
+   }
+#CABECERA LI
+   {
+      display:inline;
+      padding-right:25px;
+   }
+#CABECERA A
+   {
+      color:#ffffff;
+      text-decoration:none;
+      font-weight:bold;
+   }
+SECTION
+   {
+      margin-top:10px;
+   }
+   
+#CONTENIDO
+   {
+      width:700px;
+      height:1050px;
+      background-color:#d1bed3;
+      line-height:1.5em;
+      text-align:justify;
+      float:left;
+      margin:10px;
+      padding:30px;
+   }
+#CONTENIDOIMAGENES
+   {
+      width:700px;
+      height:1500px;
+      background-color:#d1bed3;
+      line-height:1.5em;
+      text-align:justify;
+      float:left;
+      margin:10px;
+      padding:30px;
+   }
+   
+.CENTRARIMAGEN
+  {
+    display:flex;
+    justify-content:center;
+  }
+#BARRA
+  {
+    width:190px;
+    height:1100px;
+    background-color:#8fd9da;
+    line-height:1.5em;
+    float:right;
+    font-size:13pt;
+    margin:7px;
+    padding:8px;
+   }
+.PARALLAX
+   {
+      clear:both;
+      width:100%;
+      height:400px;
+      background:url(tranquilidadParallax.jpg) fixed no-repeat;
+      background-size:cover;
+      background-position:center top;
+   }
+  
+#REGRESA
+	{	
+		clear:both;
+		width:1000px;
+		height:40px;
+		background:#597FB8;
+		padding-top:15px;
+		text-align:center;
+	}
+
+#REGRESA A
+	{	
+		
+		font-family:"Comic Sans MS";
+		color:#ffffff;					/*color blanco a los enlaces*/
+		text-decoration:none;				/*quita el subrayado a los enlaces*/
+		font-weight:bold;
+	}
+
+.otroEnlace a
+	{
+		width: 120px;
+		height:35px;
+		border-radius: 150px; 				/*los hace círculo*/
+		background: #EEEE9E;
+		float:left;					/*flotan en horizontal  */
+		margin:35px;
+		text-decoration:none;
+		font-weight:bold;
+		padding-left:60px;
+		padding-top:10px;   
+	}      
+    
+
+
